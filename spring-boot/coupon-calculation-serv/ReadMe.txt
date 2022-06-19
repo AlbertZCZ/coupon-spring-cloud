@@ -1,15 +1,4 @@
-Camel Router Spring Project
-===========================
-
-To build this project use
-
-    mvn install
-
-To run this project with Maven use
-
-    mvn camel:run
-
-For more help see the Apache Camel documentation
-
-    http://camel.apache.org/
+# 优惠券计算服务
+* 不吃网络IO和磁盘空间
+* 运行期间主要占用CPU、内存等计算资源，计算密集型
 

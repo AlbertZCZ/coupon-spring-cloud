@@ -1,4 +1,4 @@
-package org.study;
+package org.study.coupon.customer.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.study.entiry.Coupon;

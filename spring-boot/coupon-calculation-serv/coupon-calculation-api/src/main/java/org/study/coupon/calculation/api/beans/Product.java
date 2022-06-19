@@ -22,7 +22,10 @@ public class Product {
   // 商品的价格
   private long price;
 
-  // 商品在购物车里的数量
+  /**
+   * 商品在购物车里的数量
+   * 只有标品数量才能以整数计算，这里为了简单采用整数
+   */
   private Integer count;
 
   // 商品销售的门店

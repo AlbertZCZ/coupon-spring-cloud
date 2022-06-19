@@ -1121,8 +1121,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     </column>
     <column id="303" parent="287" name="created_time">
       <DataType>datetime|0s</DataType>
-      <DefaultExpression>&apos;2021-12-13 00:00:00&apos;</DefaultExpression>
-      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <Position>7</Position>
     </column>
     <column id="304" parent="287" name="rule">

@@ -20,7 +20,7 @@ import lombok.ToString;
 import org.hibernate.Hibernate;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
-import org.study.convert.CouponStatusConverter;
+import org.study.coupon.customer.dao.convert.CouponStatusConverter;
 import org.study.coupon.customer.api.enums.CouponStatus;
 import org.study.coupon.template.api.beans.CouponTemplateInfo;
 

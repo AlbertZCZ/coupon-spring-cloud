@@ -5,41 +5,66 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c3cd31d-2353-427f-899c-d672f0faba4f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/ReadMe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-api/ReadMe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-api/src/data/message1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-api/src/data/message2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-api/src/main/resources/META-INF/spring/camel-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-api/src/main/resources/log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-impl/ReadMe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-impl/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-impl/src/data/message1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-impl/src/data/message2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-impl/src/main/resources/META-INF/spring/camel-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-impl/src/main/resources/log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/ReadMe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/src/data/message1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/src/data/message2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/src/main/resources/META-INF/spring/camel-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/src/main/resources/log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-template-serv/ReadMe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-template-serv/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-template-serv/src/data/message1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-template-serv/src/data/message2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-template-serv/src/main/resources/META-INF/spring/camel-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-template-serv/src/main/resources/log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0ab8164408548cc1cfe34e1b44fcd0de40525212" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0bf9f884ca27442207b4986682fe9b87b46203db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/148c642e3a10c22f7bf06c947db3faa43ed764c2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/5/15f416c5cbcc39db75bd6efd760539462e40d708" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/18d47d4b577a9e918ec67b65a92baef5403a600e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/19f2cc6b6b88afe1490215a10b2447516b9582e0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/23636c84752b62ea1aa9fd9a30bdf552f021f248" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e7c3beab013fc45876f6d1c875892afbbd7e615" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/356e695c60120054d163698ac9d845ace30fb687" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3db3a30fd926bae53da38207d7f98e88344c7407" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/46f57848c0c2b1c47910459761c350cc82e2300d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/477c6b6b76a48289349f9314f03145dc6480a531" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48aa5e5683d4d610f253f76ec4052d89fffa6869" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4bc1bac9a880d1fd0f70665ec4cff876d81b7910" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/5262eb454200c7480365cf6e995d14321d3fba6f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/555c4903ae2aa5ce3016778c726d30ebca5ad952" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5dbc6ecb4be0edf5a36246c887014e7342d63c3c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/67c762eca4a5b3333c4888db585eee6f29e29cd2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b3e9df6eebbd6c96f46c6425028fd89a39a9e70" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/70c43ccf383bbdedecc3d00d20ff52c7a32da497" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/70e6b73ff18381a58d0a7e7996f9b56ac7fb65b8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71aa4eda2b2515d337df9bf0630383345bba4870" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/0/80d9c2a81484e66acb4b4fb3346d3a00db19c7c2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/881b6c6c602d2b914022161404eb795fbd9ae1fc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/960bb3197fd253949b7c01e4ecdfe87a43279126" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4034ecd0d83f97dd31cf1c25dd650bd68df7d15" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bb04bc7cb2f354067f01c6a26281354e990b6fd5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bddd5981d7ea7bc7d8a4931a44ce2264c9908258" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be1e9c02d4d5bc0b7518a6644b532f018efffd3e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c516012aa482468f69a6933c2da0534a5fd09119" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d4e278cd1f31e4d10c43565c0efef14111e3c169" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d95598752a8e2ea7a248fb86d01e5df02b4e33c5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e19323ecfd902429b915f06fd2a855b01e449f29" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e25bd8123911d27f97a8efb3143b7f838269daf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/9/e98b247ad3c1a01856573177dd0c2b9e7bd116ff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/ebad3ca54dc9cf05835736fe8aa47e58bfecc5a3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f09fa483d04538597c98e9450265419e5701f43b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/f1b81c6a4109af356e7434bd29d0df1e546fde46" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-impl/src/main/java/org/study/coupon/calculation/CalculationApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-impl/src/main/java/org/study/coupon/calculation/controller/CouponCalculationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-impl/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-dao/src/main/java/org/study/coupon/customer/dao/entiry/Coupon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-impl/src/main/java/org/study/coupon/customer/controller/CouponCustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a160c4de-6d4d-47ab-a159-8f7ed259fd53.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a160c4de-6d4d-47ab-a159-8f7ed259fd53.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/ReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/ReadMe.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-api/src/main/java/org/study/coupon/calculation/api/beans/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-api/src/main/java/org/study/coupon/calculation/api/beans/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-api/src/main/java/org/study/coupon/calculation/api/beans/SimulationOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-api/src/main/java/org/study/coupon/calculation/api/beans/SimulationOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-api/src/main/java/org/study/coupon/calculation/api/beans/SimulationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-api/src/main/java/org/study/coupon/calculation/api/beans/SimulationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-impl/src/main/resources/META-INF/spring/camel-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-impl/src/main/resources/log4j2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/ReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/ReadMe.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-dao/src/main/java/org/study/CouponDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-dao/src/main/java/org/study/coupon/customer/dao/CouponDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-dao/src/main/java/org/study/convert/CouponStatusConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-dao/src/main/java/org/study/coupon/customer/dao/convert/CouponStatusConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-dao/src/main/java/org/study/entiry/Coupon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-impl/src/main/java/org/study/coupon/customer/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-impl/src/main/java/org/study/coupon/customer/CustomerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-impl/src/main/java/org/study/coupon/customer/service/CouponCustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-impl/src/main/java/org/study/coupon/customer/service/CouponCustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-template-serv/coupon-template-impl/src/main/java/org/study/template/TemplateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-template-serv/coupon-template-impl/src/main/java/org/study/template/TemplateApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-template-serv/coupon-template-impl/src/main/java/org/study/template/service/CouponTemplateServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-template-serv/coupon-template-impl/src/main/java/org/study/template/service/CouponTemplateServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +138,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "e3558c0b34baa4c82c61f58a162d50e9",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -142,7 +168,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CustomerApplication">
+  <component name="RunManager" selected="Spring Boot.CalculationApplication">
+    <configuration name="CalculationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="coupon-calculation-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.coupon.calculation.CalculationApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.study.coupon.calculation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="coupon-customer-impl" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.coupon.customer.CustomerApplication" />
@@ -165,6 +204,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.CalculationApplication" />
         <item itemvalue="Spring Boot.TemplateApplication" />
       </list>
     </recent_temporary>
@@ -177,7 +217,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655543788209</updated>
-      <workItem from="1655543794092" duration="14522000" />
+      <workItem from="1655543794092" duration="14897000" />
+      <workItem from="1655602070233" duration="3708000" />
     </task>
     <servers />
   </component>

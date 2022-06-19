@@ -1,17 +1,18 @@
 package org.study.coupon.calculation.api.beans;
 
-/**
- * @program: coupon-spring-cloud
- * @description:
- * @author: zhangchaozhen
- * @create: 2022-06-18 19:08
- **/
+
 import com.google.common.collect.Maps;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.Map;
 
+/**
+ * @program: coupon-spring-cloud
+ * @description: 订单试算结果，可以看出哪个优惠券力度大
+ * @author: zhangchaozhen
+ * @create: 2022-06-18 19:08
+ **/
 @Data
 @NoArgsConstructor
 public class SimulationResponse {

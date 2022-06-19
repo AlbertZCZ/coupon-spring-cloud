@@ -10,11 +10,9 @@ import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.BooleanUtils;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import org.study.CouponDao;
 import org.study.coupon.calculation.api.beans.ShoppingCart;
 import org.study.coupon.calculation.api.beans.SimulationOrder;
 import org.study.coupon.calculation.api.beans.SimulationResponse;
@@ -22,6 +20,7 @@ import org.study.coupon.calculation.service.intf.CouponCalculationService;
 import org.study.coupon.customer.api.beans.RequestCoupon;
 import org.study.coupon.customer.api.beans.SearchCoupon;
 import org.study.coupon.customer.api.enums.CouponStatus;
+import org.study.coupon.customer.dao.CouponDao;
 import org.study.coupon.customer.service.intf.CouponCustomerService;
 import org.study.coupon.template.api.beans.CouponInfo;
 import org.study.coupon.template.api.beans.CouponTemplateInfo;
@@ -95,13 +94,13 @@ public class CouponCustomerServiceImpl implements CouponCustomerService {
 
     List<Long> templateIds = coupons.stream()
         .map(Coupon::getTemplateId)
-        .collect(Collectors.toList());
+        .toList();
     Map<Long, CouponTemplateInfo> templateMap = templateService.getTemplateInfoMap(templateIds);
     coupons.forEach(e -> e.setTemplateInfo(templateMap.get(e.getTemplateId())));
 
     return coupons.stream()
         .map(CouponConverter::convertToCoupon)
-        .collect(Collectors.toList());
+        .toList();
   }
 
   /**

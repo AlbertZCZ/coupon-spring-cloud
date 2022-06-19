@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
@@ -18,7 +19,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableJpaAuditing
 @EnableTransactionManagement
 //用于扫描Dao @Repository 引入template包 会包含 @EnableJpaRepositories
-//@EnableJpaRepositories(basePackages = {"org.study"})
+@EnableJpaRepositories(basePackages = {"org.study.coupon.customer"})
 //用于扫描JPA实体类 @Entity，默认扫本包当下路径
 @EntityScan(basePackages = {"org.study"})
 @ComponentScan(basePackages = {"org.study"})

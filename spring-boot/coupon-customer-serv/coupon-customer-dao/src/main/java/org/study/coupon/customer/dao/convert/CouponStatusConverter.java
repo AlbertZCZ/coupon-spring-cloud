@@ -1,4 +1,4 @@
-package org.study.convert;
+package org.study.coupon.customer.dao.convert;
 
 import javax.persistence.AttributeConverter;
 import javax.persistence.Converter;

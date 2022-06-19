@@ -1,15 +1,3 @@
-Camel Router Spring Project
-===========================
-
-To build this project use
-
-    mvn install
-
-To run this project with Maven use
-
-    mvn camel:run
-
-For more help see the Apache Camel documentation
-
-    http://camel.apache.org/
+# 服务于用户的子模块
+* 实现了用户领券、用户优惠券查找和订单结算功能
 
