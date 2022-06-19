@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <parent>
+    <artifactId>spring-cloud-loadbalancer</artifactId>
+    <groupId>org.study</groupId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <modelVersion>4.0.0</modelVersion>
+<!--  spring-cloud-loadbalancer-->
+  <artifactId>loadbalancer-coupon-calculation-serv</artifactId>
+  <packaging>pom</packaging>
+
+  <name>loadbalancer-coupon-calculation-serv</name>
+  <modules>
+    <module>loadbalancer-coupon-calculation-api</module>
+    <module>loadbalancer-coupon-calculation-impl</module>
+  </modules>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+  </properties>
+
+</project>

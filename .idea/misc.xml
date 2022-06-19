@@ -9,6 +9,13 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-loadbalancer/coupon-calculation-serv/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-loadbalancer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-loadbalancer/loadbalancer-coupon-calculation-serv/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-loadbalancer/loadbalancer-coupon-calculation-serv/loadbalancer-coupon-calculation-api/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-loadbalancer/loadbalancer-coupon-calculation-serv/loadbalancer-coupon-calculation-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-loadbalancer/loadbalancer-coupon-template-serv/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-loadbalancer/loadbalancer-coupon-customer-serv/pom.xml" />
       </list>
     </option>
   </component>
