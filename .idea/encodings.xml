@@ -51,6 +51,28 @@
     <file url="file://$PROJECT_DIR$/spring-cloud-loadbalancer/loadbalancer-coupon-template-serv/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-loadbalancer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-loadbalancer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-dao/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-openfeign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-openfeign/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/scala" charset="UTF-8" />
   </component>
