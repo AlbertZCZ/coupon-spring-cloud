@@ -5,23 +5,94 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c3cd31d-2353-427f-899c-d672f0faba4f" name="Changes" comment="fix: openfeign">
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/feign/fallback/TemplateServiceFallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/feign/fallback/TemplateServiceFallbackFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a160c4de-6d4d-47ab-a159-8f7ed259fd53.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/config-coupon-calculation-api/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/config-coupon-calculation-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/config-coupon-calculation-api/src/main/java/org/study/coupon/calculation/api/beans/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/config-coupon-calculation-api/src/main/java/org/study/coupon/calculation/api/beans/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/config-coupon-calculation-api/src/main/java/org/study/coupon/calculation/api/beans/SimulationOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/config-coupon-calculation-api/src/main/java/org/study/coupon/calculation/api/beans/SimulationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/config-coupon-calculation-api/src/main/resources/META-INF/spring/camel-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/config-coupon-calculation-api/src/main/resources/log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/config-coupon-calculation-impl/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/config-coupon-calculation-impl/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/config-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/ConfigCalculationApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/config-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/controller/CouponCalculationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/config-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/service/CouponCalculationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/config-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/service/intf/CouponCalculationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/config-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/service/template/AbstractRuleTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/config-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/service/template/CouponTemplateFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/config-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/service/template/RuleTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/config-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/service/template/impl/AntiPauTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/config-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/service/template/impl/DiscountTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/config-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/service/template/impl/DummyTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/config-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/service/template/impl/LonelyNightTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/config-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/service/template/impl/MoneyOffTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/config-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/service/template/impl/RandomReductionTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/config-coupon-calculation-impl/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-api/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-api/src/main/java/org/study/coupon/customer/api/beans/RequestCoupon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-api/src/main/java/org/study/coupon/customer/api/beans/SearchCoupon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-api/src/main/java/org/study/coupon/customer/api/enums/CouponStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-api/src/main/resources/log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-dao/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-dao/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-dao/src/main/java/org/study/coupon/customer/dao/CouponDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-dao/src/main/java/org/study/coupon/customer/dao/convert/CouponStatusConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-dao/src/main/java/org/study/coupon/customer/dao/entiry/Coupon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-dao/src/main/resources/log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-impl/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-impl/src/main/java/org/study/coupon/customer/ConfigCustomerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-impl/src/main/java/org/study/coupon/customer/config/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-impl/src/main/java/org/study/coupon/customer/constant/constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-impl/src/main/java/org/study/coupon/customer/controller/CouponCustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-impl/src/main/java/org/study/coupon/customer/feign/CalculationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-impl/src/main/java/org/study/coupon/customer/feign/TemplateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-impl/src/main/java/org/study/coupon/customer/feign/fallback/TemplateServiceFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-impl/src/main/java/org/study/coupon/customer/feign/fallback/TemplateServiceFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-impl/src/main/java/org/study/coupon/customer/loadbalance/CanaryRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-impl/src/main/java/org/study/coupon/customer/loadbalance/CanaryRuleConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-impl/src/main/java/org/study/coupon/customer/service/CouponConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-impl/src/main/java/org/study/coupon/customer/service/CouponCustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-impl/src/main/java/org/study/coupon/customer/service/intf/CouponCustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-impl/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-impl/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-api/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-api/src/main/java/org/study/coupon/template/api/beans/CouponInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-api/src/main/java/org/study/coupon/template/api/beans/CouponTemplateInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-api/src/main/java/org/study/coupon/template/api/beans/PagedCouponTemplateInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-api/src/main/java/org/study/coupon/template/api/beans/TemplateSearchParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-api/src/main/java/org/study/coupon/template/api/beans/enums/CouponType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-api/src/main/java/org/study/coupon/template/api/beans/ruls/Discount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-api/src/main/java/org/study/coupon/template/api/beans/ruls/TemplateRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-api/src/main/resources/log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-dao/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-dao/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-dao/src/main/java/org/study/coupon/template/dao/entity/CouponTemplateDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-dao/src/main/java/org/study/coupon/template/dao/entity/convert/CouponTypeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-dao/src/main/java/org/study/coupon/template/dao/entity/convert/RuleConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-dao/src/main/java/org/study/coupon/template/dao/entity/entrity/CouponTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-impl/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-impl/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-impl/src/main/java/org/study/template/ConfigTemplateApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-impl/src/main/java/org/study/template/controller/CouponTemplateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-impl/src/main/java/org/study/template/conver/CouponTemplateConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-impl/src/main/java/org/study/template/service/CouponTemplateServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-impl/src/main/java/org/study/template/service/intf/CouponTemplateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-impl/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-impl/src/main/resources/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/LoadbalancerCalculationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/OpenfeignCalculationApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/controller/CouponCalculationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/controller/CouponCalculationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/config/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/config/Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/feign/CalculationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/feign/CalculationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/feign/TemplateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/feign/TemplateService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/loadbalance/CanaryRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/loadbalance/CanaryRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/src/main/java/org/study/template/LoadbalancerTemplateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/src/main/java/org/study/template/OpenfeignTemplateApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/src/main/resources/application-10000.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/src/main/resources/application-10000.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +163,7 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "openjdk-17",
-    "last_opened_file_path": "/Users/zhangchaozhen/IdeaProjects/coupon-spring-cloud/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer",
+    "last_opened_file_path": "/Users/zhangchaozhen/IdeaProjects/coupon-spring-cloud",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -119,15 +190,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer" />
       <recent name="$PROJECT_DIR$/spring-cloud-loadbalancer" />
       <recent name="$PROJECT_DIR$/spring-cloud-loadbalancer/loadbalancer-coupon-calculation-serv" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-api" />
-      <recent name="$PROJECT_DIR$/spring-boot/coupon-template-serv" />
-      <recent name="$PROJECT_DIR$/spring-boot" />
+      <recent name="$PROJECT_DIR$/spring-boot/coupon-calculation-serv" />
+      <recent name="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-impl" />
+      <recent name="$PROJECT_DIR$/spring-boot/coupon-template-serv/coupon-template-api" />
+      <recent name="$PROJECT_DIR$/spring-boot/coupon-template-serv/coupon-template-dao" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.study.coupon.customer" />
@@ -146,7 +219,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OpenfeignCalculationApplication">
+  <component name="RunManager" selected="Spring Boot.ConfigCalculationApplication">
     <configuration name="CalculationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="ACTIVE_PROFILES" />
       <module name="coupon-calculation-impl" />
@@ -154,6 +227,35 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.study.coupon.calculation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigCalculationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="config-coupon-calculation-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.coupon.calculation.ConfigCalculationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigCustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="config-coupon-customer-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.coupon.customer.ConfigCustomerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigTemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="config-coupon-template-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.template.ConfigTemplateApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.study.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,38 +349,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="coupon-template-impl" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.template.TemplateApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.study.template.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Spring Boot.ConfigCalculationApplication" />
+      <item itemvalue="Spring Boot.ConfigCustomerApplication" />
       <item itemvalue="Spring Boot.OpenfeignCustomerApplication" />
       <item itemvalue="Spring Boot.LoadbalancerTemplateApplication10000" />
       <item itemvalue="Spring Boot.CustomerApplication" />
       <item itemvalue="Spring Boot.LoadbalancerCalculationApplication" />
       <item itemvalue="Spring Boot.LoadbalancerCustomerApplication" />
+      <item itemvalue="Spring Boot.ConfigTemplateApplication" />
       <item itemvalue="Spring Boot.OpenfeignCalculationApplication" />
       <item itemvalue="Spring Boot.OpenfeignTemplateApplication" />
       <item itemvalue="Spring Boot.CalculationApplication" />
       <item itemvalue="Spring Boot.LoadbalancerTemplateApplication" />
-      <item itemvalue="Spring Boot.TemplateApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConfigTemplateApplication" />
         <item itemvalue="Spring Boot.OpenfeignCalculationApplication" />
         <item itemvalue="Spring Boot.OpenfeignTemplateApplication" />
         <item itemvalue="Spring Boot.LoadbalancerTemplateApplication" />
         <item itemvalue="Spring Boot.CalculationApplication" />
-        <item itemvalue="Spring Boot.TemplateApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +387,7 @@
       <workItem from="1655624750682" duration="10510000" />
       <workItem from="1655725014565" duration="1841000" />
       <workItem from="1656041335636" duration="2444000" />
-      <workItem from="1656140511253" duration="4004000" />
+      <workItem from="1656140511253" duration="8028000" />
     </task>
     <task id="LOCAL-00001" summary="fix: 完善">
       <created>1655606937070</created>
@@ -326,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656043787722</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix: openfeign">
+      <created>1656145147314</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656145147314</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,16 +445,16 @@
     <MESSAGE value="fix: 完善" />
     <MESSAGE value="feat: 微服务化" />
     <MESSAGE value="fix: 1" />
-    <MESSAGE value="fix: openfeign" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: openfeign" />
+    <MESSAGE value="feat: openfeign" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: openfeign" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/src/main/java/org/study/template/controller/CouponTemplateController.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-impl/src/main/java/org/study/coupon/customer/controller/CouponCustomerController.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -20,6 +20,10 @@
         <option value="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/pom.xml" />
       </list>
     </option>
   </component>
