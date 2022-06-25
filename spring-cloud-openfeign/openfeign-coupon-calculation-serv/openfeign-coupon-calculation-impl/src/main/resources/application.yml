@@ -6,7 +6,7 @@ server:
 
 spring:
   application:
-    name: loadbalancer-coupon-calculation-serv
+    name: openfeign-coupon-calculation-serv
   cloud:
     nacos:
       discovery:

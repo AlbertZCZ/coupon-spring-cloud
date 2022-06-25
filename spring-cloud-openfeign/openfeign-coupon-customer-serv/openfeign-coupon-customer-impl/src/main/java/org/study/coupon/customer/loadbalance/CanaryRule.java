@@ -1,5 +1,6 @@
 package org.study.coupon.customer.loadbalance;
 
+
 import static org.study.coupon.customer.constant.constant.TRAFFIC_VERSION;
 
 import java.util.List;
@@ -86,7 +87,7 @@ public class CanaryRule implements ReactorServiceInstanceLoadBalancer {
       // 过滤掉所有金丝雀测试的节点（Metadaba有值的节点）
       List<ServiceInstance> noneCanaryInstances = instances.stream()
           .filter(e -> !e.getMetadata().containsKey(TRAFFIC_VERSION))
-          .collect(Collectors.toList());
+          .toList();
       return getRoundRobinInstance(noneCanaryInstances);
     }
 
@@ -94,7 +95,7 @@ public class CanaryRule implements ReactorServiceInstanceLoadBalancer {
     List<ServiceInstance> canaryInstances = instances.stream().filter(e -> {
       String trafficVersionInMetadata = e.getMetadata().get(TRAFFIC_VERSION);
       return StringUtils.equalsIgnoreCase(trafficVersionInMetadata, trafficVersion);
-    }).collect(Collectors.toList());
+    }).toList();
 
     return getRoundRobinInstance(canaryInstances);
   }

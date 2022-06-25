@@ -5,6 +5,8 @@ import java.util.Map;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.study.coupon.customer.feign.fallback.TemplateServiceFallback;
+import org.study.coupon.customer.feign.fallback.TemplateServiceFallbackFactory;
 import org.study.coupon.template.api.beans.CouponTemplateInfo;
 
 /**
@@ -14,9 +16,9 @@ import org.study.coupon.template.api.beans.CouponTemplateInfo;
  * @create: 2022-06-24 12:02
  **/
 
-@FeignClient(value = "coupon-template-serv", path = "/template"
-//        fallback = TemplateServiceFallback.class,
-//    fallbackFactory = TemplateServiceFallbackFactory.class
+@FeignClient(value = "openfeign-coupon-template-serv", path = "/template",
+//        fallback = TemplateServiceFallback.class
+    fallbackFactory = TemplateServiceFallbackFactory.class
 )
 public interface TemplateService {
 

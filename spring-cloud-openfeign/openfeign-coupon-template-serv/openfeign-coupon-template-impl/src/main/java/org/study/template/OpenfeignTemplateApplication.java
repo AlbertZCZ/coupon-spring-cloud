@@ -16,9 +16,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EntityScan("org.study")
 @EnableJpaRepositories("org.study.coupon.template")
 @ComponentScan(basePackages = {"org.study"})
-public class LoadbalancerTemplateApplication {
+public class OpenfeignTemplateApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(LoadbalancerTemplateApplication.class, args);
+    SpringApplication.run(OpenfeignTemplateApplication.class, args);
   }
 }

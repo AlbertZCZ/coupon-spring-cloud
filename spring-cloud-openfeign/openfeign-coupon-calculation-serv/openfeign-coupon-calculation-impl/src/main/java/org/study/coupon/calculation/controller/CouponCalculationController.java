@@ -40,8 +40,11 @@ public class CouponCalculationController {
   // 给客户提示每个可用券的优惠额度，帮助挑选
   @PostMapping("/simulate")
   @ResponseBody
-  public SimulationResponse simulate(@RequestBody SimulationOrder simulator) {
+  public SimulationResponse simulate(@RequestBody SimulationOrder simulator)
+      throws InterruptedException {
     log.info("do simulation: {}", JSON.toJSONString(simulator));
+    Thread.sleep(2000L);
+    log.info("after sleep and begin simulation");
     return calculationService.simulateOrder(simulator);
   }
   

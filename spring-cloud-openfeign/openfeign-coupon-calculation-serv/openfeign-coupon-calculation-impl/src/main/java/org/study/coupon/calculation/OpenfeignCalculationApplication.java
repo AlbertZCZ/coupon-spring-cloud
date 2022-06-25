@@ -10,10 +10,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @create: 2022-06-19 10:12
  **/
 @SpringBootApplication
-public class LoadbalancerCalculationApplication {
+public class OpenfeignCalculationApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(LoadbalancerCalculationApplication.class, args);
+    SpringApplication.run(OpenfeignCalculationApplication.class, args);
   }
   
 }

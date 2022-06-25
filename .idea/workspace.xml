@@ -4,97 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c3cd31d-2353-427f-899c-d672f0faba4f" name="Changes" comment="fix: 1">
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-api/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-api/src/main/java/org/study/coupon/calculation/api/beans/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-api/src/main/java/org/study/coupon/calculation/api/beans/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-api/src/main/java/org/study/coupon/calculation/api/beans/SimulationOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-api/src/main/java/org/study/coupon/calculation/api/beans/SimulationResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-api/src/main/resources/META-INF/spring/camel-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-api/src/main/resources/log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/LoadbalancerCalculationApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/controller/CouponCalculationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/service/CouponCalculationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/service/intf/CouponCalculationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/service/template/AbstractRuleTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/service/template/CouponTemplateFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/service/template/RuleTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/service/template/impl/AntiPauTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/service/template/impl/DiscountTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/service/template/impl/DummyTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/service/template/impl/LonelyNightTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/service/template/impl/MoneyOffTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/service/template/impl/RandomReductionTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-api/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-api/src/main/java/org/study/coupon/customer/api/beans/RequestCoupon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-api/src/main/java/org/study/coupon/customer/api/beans/SearchCoupon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-api/src/main/java/org/study/coupon/customer/api/enums/CouponStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-api/src/main/resources/log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-dao/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-dao/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-dao/src/main/java/org/study/coupon/customer/dao/CouponDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-dao/src/main/java/org/study/coupon/customer/dao/convert/CouponStatusConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-dao/src/main/java/org/study/coupon/customer/dao/entiry/Coupon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-dao/src/main/resources/log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/OpenfeignCustomerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/config/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/constant/constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/controller/CouponCustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/feign/CalculationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/feign/TemplateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/loadbalance/CanaryRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/loadbalance/CanaryRuleConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/service/CouponConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/service/CouponCustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/service/intf/CouponCustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-api/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-api/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-api/src/main/java/org/study/coupon/template/api/beans/CouponInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-api/src/main/java/org/study/coupon/template/api/beans/CouponTemplateInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-api/src/main/java/org/study/coupon/template/api/beans/PagedCouponTemplateInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-api/src/main/java/org/study/coupon/template/api/beans/TemplateSearchParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-api/src/main/java/org/study/coupon/template/api/beans/enums/CouponType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-api/src/main/java/org/study/coupon/template/api/beans/ruls/Discount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-api/src/main/java/org/study/coupon/template/api/beans/ruls/TemplateRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-api/src/main/resources/log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-dao/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-dao/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-dao/src/main/java/org/study/coupon/template/dao/entity/CouponTemplateDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-dao/src/main/java/org/study/coupon/template/dao/entity/convert/CouponTypeConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-dao/src/main/java/org/study/coupon/template/dao/entity/convert/RuleConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-dao/src/main/java/org/study/coupon/template/dao/entity/entrity/CouponTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/src/main/java/org/study/template/LoadbalancerTemplateApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/src/main/java/org/study/template/controller/CouponTemplateController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/src/main/java/org/study/template/conver/CouponTemplateConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/src/main/java/org/study/template/service/CouponTemplateServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/src/main/java/org/study/template/service/intf/CouponTemplateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/src/main/resources/application-10000.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be1e9c02d4d5bc0b7518a6644b532f018efffd3e" beforeDir="false" />
+    <list default="true" id="4c3cd31d-2353-427f-899c-d672f0faba4f" name="Changes" comment="fix: openfeign">
+      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/feign/fallback/TemplateServiceFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/feign/fallback/TemplateServiceFallbackFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a160c4de-6d4d-47ab-a159-8f7ed259fd53.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/LoadbalancerCalculationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/OpenfeignCalculationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/controller/CouponCalculationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/controller/CouponCalculationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-calculation-serv/openfeign-coupon-calculation-impl/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/config/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/config/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/feign/CalculationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/feign/CalculationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/feign/TemplateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/feign/TemplateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/loadbalance/CanaryRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer/loadbalance/CanaryRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/src/main/java/org/study/template/LoadbalancerTemplateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/src/main/java/org/study/template/OpenfeignTemplateApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/src/main/resources/application-10000.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/src/main/resources/application-10000.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -165,7 +92,7 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "openjdk-17",
-    "last_opened_file_path": "/Users/zhangchaozhen/IdeaProjects/coupon-spring-cloud",
+    "last_opened_file_path": "/Users/zhangchaozhen/IdeaProjects/coupon-spring-cloud/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -175,7 +102,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.27816093",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "ccbaaaf773834f379f5f597060bf37f6",
+    "spring.configuration.checksum": "53faed7d9e9ef5f3f9c68444fe01170d",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -192,6 +119,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/spring-cloud-loadbalancer" />
       <recent name="$PROJECT_DIR$/spring-cloud-loadbalancer/loadbalancer-coupon-calculation-serv" />
@@ -218,7 +146,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.LoadbalancerCustomerApplication">
+  <component name="RunManager" selected="Spring Boot.OpenfeignCalculationApplication">
     <configuration name="CalculationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="ACTIVE_PROFILES" />
       <module name="coupon-calculation-impl" />
@@ -240,24 +168,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoadbalancerCalculationApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="openfeign-coupon-calculation-impl" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.coupon.calculation.LoadbalancerCalculationApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LoadbalancerCalculationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <module name="loadbalancer-coupon-calculation-impl" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.coupon.calculation.LoadbalancerCalculationApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoadbalancerCustomerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="openfeign-coupon-customer-impl" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.coupon.customer.OpenfeignCustomerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -299,6 +213,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OpenfeignCalculationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="openfeign-coupon-calculation-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.coupon.calculation.OpenfeignCalculationApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.study.coupon.calculation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenfeignCustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="openfeign-coupon-customer-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.coupon.customer.OpenfeignCustomerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenfeignTemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="openfeign-coupon-template-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.template.OpenfeignTemplateApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.study.template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="coupon-template-impl" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.template.TemplateApplication" />
@@ -313,18 +261,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.LoadbalancerCalculationApplication (1)" />
-      <item itemvalue="Spring Boot.LoadbalancerCustomerApplication (1)" />
+      <item itemvalue="Spring Boot.OpenfeignCustomerApplication" />
       <item itemvalue="Spring Boot.LoadbalancerTemplateApplication10000" />
       <item itemvalue="Spring Boot.CustomerApplication" />
       <item itemvalue="Spring Boot.LoadbalancerCalculationApplication" />
       <item itemvalue="Spring Boot.LoadbalancerCustomerApplication" />
+      <item itemvalue="Spring Boot.OpenfeignCalculationApplication" />
+      <item itemvalue="Spring Boot.OpenfeignTemplateApplication" />
       <item itemvalue="Spring Boot.CalculationApplication" />
       <item itemvalue="Spring Boot.LoadbalancerTemplateApplication" />
       <item itemvalue="Spring Boot.TemplateApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.OpenfeignCalculationApplication" />
+        <item itemvalue="Spring Boot.OpenfeignTemplateApplication" />
         <item itemvalue="Spring Boot.LoadbalancerTemplateApplication" />
         <item itemvalue="Spring Boot.CalculationApplication" />
         <item itemvalue="Spring Boot.TemplateApplication" />
@@ -344,7 +295,8 @@
       <workItem from="1655624484251" duration="241000" />
       <workItem from="1655624750682" duration="10510000" />
       <workItem from="1655725014565" duration="1841000" />
-      <workItem from="1656041335636" duration="2356000" />
+      <workItem from="1656041335636" duration="2444000" />
+      <workItem from="1656140511253" duration="4004000" />
     </task>
     <task id="LOCAL-00001" summary="fix: 完善">
       <created>1655606937070</created>
@@ -367,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655726250289</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix: openfeign">
+      <created>1656043787722</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656043787722</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,6 +347,18 @@
     <MESSAGE value="fix: 完善" />
     <MESSAGE value="feat: 微服务化" />
     <MESSAGE value="fix: 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: 1" />
+    <MESSAGE value="fix: openfeign" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: openfeign" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/src/main/java/org/study/template/controller/CouponTemplateController.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

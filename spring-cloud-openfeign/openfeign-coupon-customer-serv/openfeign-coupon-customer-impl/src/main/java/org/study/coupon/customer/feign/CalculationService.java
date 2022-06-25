@@ -12,7 +12,7 @@ import org.study.coupon.calculation.api.beans.SimulationResponse;
  * @author: zhangchaozhen
  * @create: 2022-06-24 12:04
  **/
-@FeignClient(value = "coupon-calculation-serv", path = "/calculator")
+@FeignClient(value = "openfeign-coupon-calculation-serv", path = "/calculator")
 public interface CalculationService {
 
   // 优惠券结算

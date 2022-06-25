@@ -6,7 +6,7 @@ server:
 
 spring:
   application:
-    name: loadbalancer-coupon-customer-serv
+    name: openfeign-coupon-customer-serv
   datasource:
     # mysql数据源
     username: root
@@ -70,4 +70,21 @@ spring:
         watch-delay: 30000
 logging:
   level:
-    com.broadview.coupon: debug
+    org.study.coupon.customer.feign.TemplateService: debug
+    org.study.coupon.customer.feign.CalculationService: debug
+    
+feign:
+  client:
+    config:
+      # 全局超时配置
+      default:
+        # 网络链接阶段1秒超时
+        connectTimeout: 1000
+        # 服务请求响应阶段5秒超时
+        readTimeout: 2000
+      # 针对某个特定服务的超时配置
+      coupon-template-serv:
+        connectTimeout: 1000
+        readTimeout: 1500
+  circuitbreaker:
+    enabled: true

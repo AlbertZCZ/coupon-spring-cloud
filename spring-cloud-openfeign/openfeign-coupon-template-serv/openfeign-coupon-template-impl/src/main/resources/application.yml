@@ -7,7 +7,7 @@ server:
 spring:
   application:
     # 定义项目名称
-    name: loadbalancer-coupon-template-serv
+    name: openfeign-coupon-template-serv
   datasource:
     # mysql数据源
     username: root
