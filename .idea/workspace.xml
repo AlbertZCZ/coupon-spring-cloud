@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c3cd31d-2353-427f-899c-d672f0faba4f" name="Changes" comment="fix: openfeign">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4c3cd31d-2353-427f-899c-d672f0faba4f" name="Changes" comment="ci: 不同环境">
+      <change afterPath="$PROJECT_DIR$/spring-boot/ReadMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-impl/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-loadbalancer/loadbalancer-coupon-template-serv/loadbalancer-coupon-template-impl/src/main/resources/application-10000.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-loadbalancer/loadbalancer-coupon-template-serv/loadbalancer-coupon-template-impl/src/main/resources/application-10000.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-loadbalancer/loadbalancer-coupon-template-serv/loadbalancer-coupon-template-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-loadbalancer/loadbalancer-coupon-template-serv/loadbalancer-coupon-template-impl/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/src/main/resources/application-10000.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/src/main/resources/application-10000.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/openfeign-coupon-template-impl/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-config/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/config-coupon-calculation-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/config-coupon-calculation-impl/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-impl/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-impl/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-impl/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-loadbalancer/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-loadbalancer/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-openfeign/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-openfeign/ReadMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +32,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -69,39 +75,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelOrder2&quot;: &quot;2&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth2&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/zhangchaozhen/IdeaProjects/coupon-spring-cloud&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.27816093&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;294c3ff962d7cde007a72c3ba6db4c50&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelOrder2": "2",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth2": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "openjdk-17",
+    "last_opened_file_path": "C:/Users/zhang/IdeaProjects/coupon-spring-cloud/spring-boot",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.27816093",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "294c3ff962d7cde007a72c3ba6db4c50",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -110,6 +116,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zhang\IdeaProjects\coupon-spring-cloud\spring-boot" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer" />
       <recent name="$PROJECT_DIR$/spring-cloud-loadbalancer" />
@@ -139,7 +146,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OpenfeignTemplateApplication">
+  <component name="RunManager" selected="Spring Boot.ConfigCustomerApplication">
     <configuration name="CalculationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="ACTIVE_PROFILES" />
       <module name="coupon-calculation-impl" />
@@ -285,8 +292,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.OpenfeignTemplateApplication" />
         <item itemvalue="Spring Boot.ConfigTemplateApplication" />
+        <item itemvalue="Spring Boot.OpenfeignTemplateApplication" />
         <item itemvalue="Spring Boot.OpenfeignCalculationApplication" />
         <item itemvalue="Spring Boot.LoadbalancerTemplateApplication" />
         <item itemvalue="Spring Boot.CalculationApplication" />
@@ -316,7 +323,7 @@
       <workItem from="1658590383668" duration="3039000" />
       <workItem from="1658595391806" duration="3032000" />
       <workItem from="1658671273781" duration="266000" />
-      <workItem from="1658714163760" duration="1763000" />
+      <workItem from="1658714163760" duration="5242000" />
     </task>
     <task id="LOCAL-00001" summary="fix: 完善">
       <created>1655606937070</created>
@@ -353,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656145147314</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ci: 不同环境">
+      <created>1658759118395</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658759118395</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,7 +378,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -375,7 +401,8 @@
     <MESSAGE value="feat: 微服务化" />
     <MESSAGE value="fix: 1" />
     <MESSAGE value="feat: openfeign" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: openfeign" />
+    <MESSAGE value="ci: 不同环境" />
+    <option name="LAST_COMMIT_MESSAGE" value="ci: 不同环境" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -37,7 +37,7 @@ spring:
     nacos:
       discovery:
         # 可以配置多个，逗号分隔
-        server-addr: 172.16.211.224:8848
+        server-addr: localhost:8848,localhost:8844,localhost:8846
         # 默认就是application name，一般不用配置
         service: ${spring.application.name}
         # nacos客户端向服务端发送心跳的时间间隔，时间单位其实是ms

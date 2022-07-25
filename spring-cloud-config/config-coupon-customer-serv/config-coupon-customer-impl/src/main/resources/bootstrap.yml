@@ -34,6 +34,6 @@ spring:
             # 是否支持动态刷新
             refresh: true
           # 可以添加其他节点
-          - dataId: rabbitmq-config.yml
+          - dataId: mq-config.yml
             group: EXT_GROUP
             refresh: true
