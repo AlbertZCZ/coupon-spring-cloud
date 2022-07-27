@@ -60,7 +60,7 @@ public class CouponTemplate {
   private String description;
 
   // 优惠券类型
-  @Column(name = "type", nullable = false)
+  @Column(name = "type")
   @Convert(converter = CouponTypeConverter.class)
   private CouponType category;
 
@@ -70,7 +70,7 @@ public class CouponTemplate {
   private Date createdTime;
 
   // 优惠券核算规则，平铺成JSON字段
-  @Column(name = "rule", nullable = false)
+  @Column(name = "rule")
   @Convert(converter = RuleConverter.class)
   private TemplateRule rule;
 

@@ -96,6 +96,30 @@
     <file url="file://$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-template-serv/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-openfeign/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-openfeign/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-calculation-serv/sentinel-coupon-calculation-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-calculation-serv/sentinel-coupon-calculation-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-calculation-serv/sentinel-coupon-calculation-impl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-calculation-serv/sentinel-coupon-calculation-impl/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-calculation-serv/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-calculation-serv/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-customer-serv/sentinel-coupon-customer-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-customer-serv/sentinel-coupon-customer-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-customer-serv/sentinel-coupon-customer-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-customer-serv/sentinel-coupon-customer-dao/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-customer-serv/sentinel-coupon-customer-impl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-customer-serv/sentinel-coupon-customer-impl/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-customer-serv/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-customer-serv/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-template-serv/sentinel-coupon-template-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-template-serv/sentinel-coupon-template-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-template-serv/sentinel-coupon-template-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-template-serv/sentinel-coupon-template-dao/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-template-serv/sentinel-coupon-template-impl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-template-serv/sentinel-coupon-template-impl/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-template-serv/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-template-serv/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sentinel/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sentinel/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/scala" charset="UTF-8" />
   </component>

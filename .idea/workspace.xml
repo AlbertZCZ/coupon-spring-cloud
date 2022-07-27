@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c3cd31d-2353-427f-899c-d672f0faba4f" name="Changes" comment="ci: 不同环境">
-      <change afterPath="$PROJECT_DIR$/spring-boot/ReadMe.md" afterDir="false" />
+    <list default="true" id="4c3cd31d-2353-427f-899c-d672f0faba4f" name="Changes" comment="feat: sentinel">
+      <change afterPath="$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-customer-serv/sentinel-coupon-customer-impl/src/main/java/org/study/coupon/customer/feign/OpenfeignSentinelInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-template-serv/sentinel-coupon-template-impl/src/main/java/org/study/template/sentinel/SentinelOriginParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/config-coupon-calculation-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/config-coupon-calculation-impl/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-impl/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-impl/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-impl/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-loadbalancer/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-loadbalancer/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-openfeign/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-openfeign/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-dao/src/main/java/org/study/coupon/template/dao/entity/convert/RuleConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-dao/src/main/java/org/study/coupon/template/dao/entity/convert/RuleConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-dao/src/main/java/org/study/coupon/template/dao/entity/entrity/CouponTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/config-coupon-template-dao/src/main/java/org/study/coupon/template/dao/entity/entrity/CouponTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sentinel/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sentinel/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-customer-serv/sentinel-coupon-customer-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-customer-serv/sentinel-coupon-customer-impl/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-template-serv/sentinel-coupon-template-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-template-serv/sentinel-coupon-template-impl/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-template-serv/sentinel-coupon-template-impl/src/main/java/org/study/template/service/CouponTemplateServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-template-serv/sentinel-coupon-template-impl/src/main/java/org/study/template/service/CouponTemplateServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-template-serv/sentinel-coupon-template-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-template-serv/sentinel-coupon-template-impl/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,39 +77,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelOrder2": "2",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RequestMappingsPanelWidth2": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "openjdk-17",
-    "last_opened_file_path": "C:/Users/zhang/IdeaProjects/coupon-spring-cloud/spring-boot",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.27816093",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "294c3ff962d7cde007a72c3ba6db4c50",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelOrder2&quot;: &quot;2&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth2&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/zhang/IdeaProjects/coupon-spring-cloud/spring-cloud-sentinel/sentinel-coupon-calculation-serv&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.27816093&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;168abe376ee10d636ba150cdda054b5c&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -116,11 +118,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zhang\IdeaProjects\coupon-spring-cloud" />
+      <recent name="C:\Users\zhang\IdeaProjects\coupon-spring-cloud\spring-cloud-config\config-coupon-calculation-serv\config-coupon-calculation-impl\src\main\resources" />
+      <recent name="C:\Users\zhang\IdeaProjects\coupon-spring-cloud\spring-cloud-config\config-coupon-template-serv\config-coupon-template-impl\src\main\resources" />
       <recent name="C:\Users\zhang\IdeaProjects\coupon-spring-cloud\spring-boot" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/spring-cloud-openfeign/openfeign-coupon-customer-serv/openfeign-coupon-customer-impl/src/main/java/org/study/coupon/customer" />
-      <recent name="$PROJECT_DIR$/spring-cloud-loadbalancer" />
-      <recent name="$PROJECT_DIR$/spring-cloud-loadbalancer/loadbalancer-coupon-calculation-serv" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-api" />
@@ -146,21 +148,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigCustomerApplication">
-    <configuration name="CalculationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="ACTIVE_PROFILES" />
-      <module name="coupon-calculation-impl" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.coupon.calculation.CalculationApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.study.coupon.calculation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.SentinelTemplateApplication">
     <configuration name="ConfigCalculationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <module name="config-coupon-calculation-impl" />
@@ -276,7 +264,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SentinelCalculationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="sentinel-coupon-calculation-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.coupon.calculation.SentinelCalculationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentinelCustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="sentinel-coupon-customer-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.coupon.customer.SentinelCustomerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentinelTemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sentinel-coupon-template-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.template.SentinelTemplateApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.study.template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Spring Boot.SentinelCalculationApplication" />
+      <item itemvalue="Spring Boot.SentinelCustomerApplication" />
       <item itemvalue="Spring Boot.ConfigCalculationApplication" />
       <item itemvalue="Spring Boot.ConfigCustomerApplication" />
       <item itemvalue="Spring Boot.OpenfeignCustomerApplication" />
@@ -284,19 +303,19 @@
       <item itemvalue="Spring Boot.CustomerApplication" />
       <item itemvalue="Spring Boot.LoadbalancerCalculationApplication" />
       <item itemvalue="Spring Boot.LoadbalancerCustomerApplication" />
+      <item itemvalue="Spring Boot.SentinelTemplateApplication" />
       <item itemvalue="Spring Boot.ConfigTemplateApplication" />
       <item itemvalue="Spring Boot.OpenfeignCalculationApplication" />
       <item itemvalue="Spring Boot.OpenfeignTemplateApplication" />
-      <item itemvalue="Spring Boot.CalculationApplication" />
       <item itemvalue="Spring Boot.LoadbalancerTemplateApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SentinelTemplateApplication" />
         <item itemvalue="Spring Boot.ConfigTemplateApplication" />
         <item itemvalue="Spring Boot.OpenfeignTemplateApplication" />
         <item itemvalue="Spring Boot.OpenfeignCalculationApplication" />
         <item itemvalue="Spring Boot.LoadbalancerTemplateApplication" />
-        <item itemvalue="Spring Boot.CalculationApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +342,16 @@
       <workItem from="1658590383668" duration="3039000" />
       <workItem from="1658595391806" duration="3032000" />
       <workItem from="1658671273781" duration="266000" />
-      <workItem from="1658714163760" duration="5242000" />
+      <workItem from="1658714163760" duration="6418000" />
+      <workItem from="1658798913852" duration="2221000" />
+      <workItem from="1658803437526" duration="50000" />
+      <workItem from="1658842733855" duration="4530000" />
+      <workItem from="1658890298580" duration="310000" />
+      <workItem from="1658890995755" duration="652000" />
+      <workItem from="1658891673946" duration="259000" />
+      <workItem from="1658933639511" duration="1639000" />
+      <workItem from="1658972233747" duration="58000" />
+      <workItem from="1659003383764" duration="7278000" />
     </task>
     <task id="LOCAL-00001" summary="fix: 完善">
       <created>1655606937070</created>
@@ -367,7 +395,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658759118395</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test: 前情回顾">
+      <created>1658762822088</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658762822088</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: sentinel">
+      <created>1658890473182</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658890473182</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,17 +444,8 @@
     <MESSAGE value="fix: 1" />
     <MESSAGE value="feat: openfeign" />
     <MESSAGE value="ci: 不同环境" />
-    <option name="LAST_COMMIT_MESSAGE" value="ci: 不同环境" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/config-coupon-customer-impl/src/main/java/org/study/coupon/customer/controller/CouponCustomerController.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="test: 前情回顾" />
+    <MESSAGE value="feat: sentinel" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: sentinel" />
   </component>
 </project>

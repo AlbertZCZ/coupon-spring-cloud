@@ -24,6 +24,10 @@
         <option value="$PROJECT_DIR$/spring-cloud-config/config-coupon-template-serv/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-config/config-coupon-calculation-serv/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-config/config-coupon-customer-serv/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sentinel/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-template-serv/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-customer-serv/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-calculation-serv/pom.xml" />
       </list>
     </option>
   </component>
@@ -32,10 +36,5 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="jpab" />
-  </component>
-  <component name="SwUserDefinedSpecifications">
-    <option name="specTypeByUrl">
-      <map />
-    </option>
   </component>
 </project>
