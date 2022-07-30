@@ -4,17 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c3cd31d-2353-427f-899c-d672f0faba4f" name="Changes" comment="feat: sentinel">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="4c3cd31d-2353-427f-899c-d672f0faba4f" name="Changes" comment="feat: sleuth">
+      <change afterPath="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-calculation-serv/sleuth-coupon-calculation-impl/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-customer-serv/sleuth-coupon-customer-impl/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-template-serv/sleuth-coupon-template-impl/src/main/resources/logback-spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-sentinel/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sentinel/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-calculation-serv/sentinel-coupon-calculation-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-calculation-serv/sentinel-coupon-calculation-impl/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-customer-serv/sentinel-coupon-customer-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-customer-serv/sentinel-coupon-customer-impl/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-template-serv/sentinel-coupon-template-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-template-serv/sentinel-coupon-template-impl/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-template-serv/sentinel-coupon-template-impl/src/main/java/org/study/template/controller/CouponTemplateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-template-serv/sentinel-coupon-template-impl/src/main/java/org/study/template/controller/CouponTemplateController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-template-serv/sentinel-coupon-template-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-template-serv/sentinel-coupon-template-impl/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-template-serv/sentinel-coupon-template-impl/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-template-serv/sentinel-coupon-template-impl/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sleuth/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sleuth/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-calculation-serv/sleuth-coupon-calculation-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-calculation-serv/sleuth-coupon-calculation-impl/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-calculation-serv/sleuth-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/controller/CouponCalculationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-calculation-serv/sleuth-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/controller/CouponCalculationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-calculation-serv/sleuth-coupon-calculation-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-calculation-serv/sleuth-coupon-calculation-impl/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-customer-serv/sleuth-coupon-customer-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-customer-serv/sleuth-coupon-customer-impl/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-customer-serv/sleuth-coupon-customer-impl/src/main/java/org/study/coupon/customer/feign/CalculationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-customer-serv/sleuth-coupon-customer-impl/src/main/java/org/study/coupon/customer/feign/CalculationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-customer-serv/sleuth-coupon-customer-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-customer-serv/sleuth-coupon-customer-impl/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-template-serv/sleuth-coupon-template-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-template-serv/sleuth-coupon-template-impl/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-template-serv/sleuth-coupon-template-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-template-serv/sleuth-coupon-template-impl/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +86,7 @@
   <component name="ProjectId" id="2AkBckwM4BnoisVyHUv3b0zC5z6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="false" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -100,7 +104,7 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "openjdk-17",
-    "last_opened_file_path": "C:/Users/zhang/IdeaProjects/coupon-spring-cloud/spring-cloud-sentinel/sentinel-coupon-calculation-serv",
+    "last_opened_file_path": "C:/Users/zhang/IdeaProjects/coupon-spring-cloud/spring-cloud-sleuth/sleuth-coupon-calculation-serv/sleuth-coupon-calculation-impl/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -109,8 +113,8 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.27816093",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "168abe376ee10d636ba150cdda054b5c",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "2ad99678452678165f86c61ab00fe2da",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -127,11 +131,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zhang\IdeaProjects\coupon-spring-cloud\spring-cloud-sleuth\sleuth-coupon-calculation-serv\sleuth-coupon-calculation-impl\src\main\resources" />
+      <recent name="C:\Users\zhang\IdeaProjects\coupon-spring-cloud\spring-cloud-sleuth\sleuth-coupon-customer-serv\sleuth-coupon-customer-impl\src\main\resources" />
       <recent name="C:\Users\zhang\IdeaProjects\coupon-spring-cloud" />
       <recent name="C:\Users\zhang\IdeaProjects\coupon-spring-cloud\spring-cloud-config\config-coupon-calculation-serv\config-coupon-calculation-impl\src\main\resources" />
       <recent name="C:\Users\zhang\IdeaProjects\coupon-spring-cloud\spring-cloud-config\config-coupon-template-serv\config-coupon-template-impl\src\main\resources" />
-      <recent name="C:\Users\zhang\IdeaProjects\coupon-spring-cloud\spring-boot" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-api" />
@@ -157,7 +161,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SentinelTemplateApplication">
+  <component name="RunManager" selected="Spring Boot.SleuthTemplateApplication">
     <configuration name="ConfigCalculationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <module name="config-coupon-calculation-impl" />
@@ -206,20 +210,6 @@
       <option name="ACTIVE_PROFILES" />
       <module name="loadbalancer-coupon-customer-impl" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.coupon.customer.LoadbalancerCustomerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoadbalancerTemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="ACTIVE_PROFILES" />
-      <module name="loadbalancer-coupon-template-impl" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.template.LoadbalancerTemplateApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.study.template.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -302,7 +292,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SleuthCalculationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="sleuth-coupon-calculation-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.coupon.calculation.SleuthCalculationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SleuthCustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="sleuth-coupon-customer-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.coupon.customer.SleuthCustomerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SleuthTemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sleuth-coupon-template-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.template.SleuthTemplateApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.study.template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Spring Boot.SleuthCalculationApplication" />
+      <item itemvalue="Spring Boot.SleuthCustomerApplication" />
       <item itemvalue="Spring Boot.SentinelCalculationApplication" />
       <item itemvalue="Spring Boot.SentinelCustomerApplication" />
       <item itemvalue="Spring Boot.ConfigCalculationApplication" />
@@ -312,19 +333,19 @@
       <item itemvalue="Spring Boot.CustomerApplication" />
       <item itemvalue="Spring Boot.LoadbalancerCalculationApplication" />
       <item itemvalue="Spring Boot.LoadbalancerCustomerApplication" />
+      <item itemvalue="Spring Boot.SleuthTemplateApplication" />
       <item itemvalue="Spring Boot.SentinelTemplateApplication" />
       <item itemvalue="Spring Boot.ConfigTemplateApplication" />
       <item itemvalue="Spring Boot.OpenfeignCalculationApplication" />
       <item itemvalue="Spring Boot.OpenfeignTemplateApplication" />
-      <item itemvalue="Spring Boot.LoadbalancerTemplateApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SleuthTemplateApplication" />
         <item itemvalue="Spring Boot.SentinelTemplateApplication" />
         <item itemvalue="Spring Boot.ConfigTemplateApplication" />
         <item itemvalue="Spring Boot.OpenfeignTemplateApplication" />
         <item itemvalue="Spring Boot.OpenfeignCalculationApplication" />
-        <item itemvalue="Spring Boot.LoadbalancerTemplateApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +385,14 @@
       <workItem from="1659021403399" duration="736000" />
       <workItem from="1659022317934" duration="125000" />
       <workItem from="1659095664709" duration="671000" />
-      <workItem from="1659160794206" duration="7987000" />
+      <workItem from="1659160794206" duration="11984000" />
+      <workItem from="1659363413822" duration="3159000" />
+      <workItem from="1659605391628" duration="374000" />
+      <workItem from="1659605786425" duration="738000" />
+      <workItem from="1659606594164" duration="1917000" />
+      <workItem from="1659777381769" duration="5839000" />
+      <workItem from="1659844144136" duration="940000" />
+      <workItem from="1659857869781" duration="1297000" />
     </task>
     <task id="LOCAL-00001" summary="fix: 完善">
       <created>1655606937070</created>
@@ -429,7 +457,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659020686143</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: sentinel">
+      <created>1659187991077</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1659187991077</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: sleuth">
+      <created>1659191915225</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1659191915225</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,8 +507,9 @@
     <MESSAGE value="feat: openfeign" />
     <MESSAGE value="ci: 不同环境" />
     <MESSAGE value="test: 前情回顾" />
-    <MESSAGE value="feat: sentinel" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: sentinel" />
+    <MESSAGE value="feat: sentinel配置持久化" />
+    <MESSAGE value="feat: sleuth" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: sleuth" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
