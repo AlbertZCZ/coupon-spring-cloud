@@ -6,7 +6,7 @@ server:
 
 spring:
   application:
-    name: config-coupon-calculation-serv
+    name: sentinel-coupon-calculation-serv
 logging:
   level:
     com.broadview.coupon: debug

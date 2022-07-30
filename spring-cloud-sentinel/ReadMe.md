@@ -4,7 +4,7 @@
 2. 对应微服务引入依赖
 3. 修改配置，直连控制台
 4. 使用注解对资源进行标记
-## 内部异常治理
+
 ## 外部流量控制
 ### 直连
 ### 关联
@@ -15,3 +15,12 @@
 这个实现过程分为两步。第一步，你要想办法在服务请求中加上一个特殊标记，告诉Template服务是谁调用了你；
 第二步，你需要在Sentinel控制台设置流控规则的针对来源。
 标记通过对openFeign动手脚OpenfeignSentinelInterceptor
+
+## 内部异常治理
+为项目添加降级方案
+指定一段通用的降级逻辑，来应对BlockException以外的RuntimeException
+## 配置持久化
+把Sentinel中设置的限流规则保存到Nacos配置中心
+1. 将限流规则同步nacos服务器
+2. 从nacos config获取限流规则
+3. 对sentinel进行二次改造

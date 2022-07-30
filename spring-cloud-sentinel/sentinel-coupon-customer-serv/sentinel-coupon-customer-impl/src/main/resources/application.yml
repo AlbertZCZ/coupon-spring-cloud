@@ -6,7 +6,7 @@ server:
 
 spring:
   application:
-    name: config-coupon-customer-serv
+    name: sentinel-coupon-customer-serv
 #  datasource:
 #    # mysql数据源
 #    username: root

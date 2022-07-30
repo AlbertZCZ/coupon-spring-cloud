@@ -1,7 +1,7 @@
 spring:
   # 必须把name属性从application.yml迁移过来，否则无法动态刷新
   application:
-    name: config-coupon-template-serv
+    name: sentinel-coupon-template-serv
   cloud:
     nacos:
       config:
