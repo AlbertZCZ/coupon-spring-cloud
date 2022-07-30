@@ -28,6 +28,18 @@
         <option value="$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-template-serv/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-customer-serv/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-calculation-serv/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sleuth/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-template-serv/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-customer-serv/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-calculation-serv/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-calculation-serv/sentinel-coupon-calculation-api/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-calculation-serv/sentinel-coupon-calculation-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-customer-serv/sentinel-coupon-customer-api/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-customer-serv/sentinel-coupon-customer-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-customer-serv/sentinel-coupon-customer-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-template-serv/sleuth-coupon-template-api/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-template-serv/sleuth-coupon-template-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-template-serv/sleuth-coupon-template-impl/pom.xml" />
       </list>
     </option>
   </component>

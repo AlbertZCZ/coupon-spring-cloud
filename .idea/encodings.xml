@@ -128,6 +128,35 @@
     <file url="file://$PROJECT_DIR$/spring-cloud-sentinel/sentinel-coupon-template-serv/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-sentinel/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-sentinel/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-calculation-serv/sentinel-coupon-calculation-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-calculation-serv/sentinel-coupon-calculation-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-calculation-serv/sentinel-coupon-calculation-impl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-calculation-serv/sentinel-coupon-calculation-impl/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-calculation-serv/sleuth-coupon-calculation-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-calculation-serv/sleuth-coupon-calculation-impl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-calculation-serv/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-calculation-serv/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-customer-serv/sentinel-coupon-customer-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-customer-serv/sentinel-coupon-customer-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-customer-serv/sentinel-coupon-customer-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-customer-serv/sentinel-coupon-customer-dao/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-customer-serv/sentinel-coupon-customer-impl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-customer-serv/sentinel-coupon-customer-impl/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-customer-serv/sleuth-coupon-customer-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-customer-serv/sleuth-coupon-customer-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-customer-serv/sleuth-coupon-customer-impl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-customer-serv/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-customer-serv/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-template-serv/sleuth-coupon-template-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-template-serv/sleuth-coupon-template-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-template-serv/sleuth-coupon-template-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-template-serv/sleuth-coupon-template-dao/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-template-serv/sleuth-coupon-template-impl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-template-serv/sleuth-coupon-template-impl/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-template-serv/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-template-serv/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-sleuth/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/scala" charset="UTF-8" />
   </component>
