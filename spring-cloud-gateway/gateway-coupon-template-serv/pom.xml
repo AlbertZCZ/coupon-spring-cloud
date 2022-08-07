@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <parent>
+    <artifactId>spring-cloud-gateway</artifactId>
+    <groupId>org.study</groupId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>gateway-coupon-template-serv</artifactId>
+  <packaging>pom</packaging>
+
+  <name>gateway-coupon-template-serv</name>
+  <modules>
+    <module>gateway-coupon-template-api</module>
+    <module>gateway-coupon-template-dao</module>
+    <module>gateway-coupon-template-impl</module>
+  </modules>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+  </properties>
+
+</project>

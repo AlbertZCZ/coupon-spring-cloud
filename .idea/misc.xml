@@ -40,6 +40,10 @@
         <option value="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-template-serv/sleuth-coupon-template-api/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-template-serv/sleuth-coupon-template-dao/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-sleuth/sleuth-coupon-template-serv/sleuth-coupon-template-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-template-serv/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-customer-serv/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-calculation-serv/pom.xml" />
       </list>
     </option>
   </component>
