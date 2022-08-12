@@ -15,3 +15,15 @@ gateway的基本单元，每个路由都有一个目标地址，这个地址就�
 gateway把请求转发给目标服务的过程中，把这个任务全权委托给了过滤器（Filter）来处理。
 
 ![img.png](images/filter.png)
+
+## 集成gateway
+
+### 跨域配置
+定义在的spring.cloud.gateway.globalcors.cors-configurations节点
+
+![img.png](images/img.png "相关配置说明")
+
+### 定义路由规则
+RoutesConfiguration
+## Redis + Lua实现限流方案
+RedisLimitationConfig
