@@ -37,7 +37,7 @@ spring:
     nacos:
       discovery:
         # 可以配置多个，逗号分隔
-        server-addr: localhost:8848,localhost:8844,localhost:8846
+        server-addr: localhost:8848,localhost:8846
         # 默认就是application name，一般不用配置
         service: ${spring.application.name}
         # nacos客户端向服务端发送心跳的时间间隔，时间单位其实是ms
@@ -75,6 +75,51 @@ spring:
         port: 8719
         # dashboard地址
         dashboard: localhost:8858
+    stream:
+      binders:
+        my-rabbit:
+          type: rabbit
+          environment:
+            spring:
+              rabbitmq:
+                host: localhost
+                port: 5672
+                username: guest
+                password: guest
+      bindings:
+        addCoupon-out-0:
+          destination: request-coupon-topic
+          content-type: application/json
+          binder: my-rabbit
+        addCoupon-in-0:
+          destination: request-coupon-topic
+          content-type: application/json
+          group: add-coupon-group
+          binder: my-rabbit
+          consumer:
+            # 最大重试次数，默认3次
+            max-attempts: 5
+            # 重试间初始间隔
+            back-off-initial-interval: 2000
+            back-off-max-interval: 10000
+            # 重试间隔增长因子，默认2
+            back-off-multiplier: 2
+            # 不想重试的异常类型，默认为空
+            retryable-exceptions:
+              java.lang.IllegalArgumentException: false
+        deleteCoupon-out-0:
+          destination: request-coupon-topic
+          content-type: text/plain
+          binder: my-rabbit
+        deleteCoupon-in-0:
+          destination: request-coupon-topic
+          content-type: text/plain
+          group: delete-coupon-group
+          binder: my-rabbit
+      function:
+        definition: addCoupon,deleteCoupon
+
+
   sleuth:
     sampler:
       # 采样率的概率，100%采样

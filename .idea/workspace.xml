@@ -4,18 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c3cd31d-2353-427f-899c-d672f0faba4f" name="Changes" comment="feat: gateway">
-      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway/images/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway/middleware/gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway/middleware/gateway/src/main/java/org.study.gateway/RedisLimitationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway/middleware/gateway/src/main/java/org.study.gateway/RoutesConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway/middleware/gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway/middleware/gateway/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway/middleware/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="4c3cd31d-2353-427f-899c-d672f0faba4f" name="Changes" comment="feat: gateway路由配置">
+      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-customer-serv/gateway-coupon-customer-impl/src/main/java/org/study/coupon/customer/service/CouponConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-customer-serv/gateway-coupon-customer-impl/src/main/java/org/study/coupon/customer/service/CouponProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway/middleware/gateway/src/main/java/org/study/gateway/dynamic/DynamicRoutesListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway/middleware/gateway/src/main/java/org/study/gateway/dynamic/DynamicRoutesLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway/middleware/gateway/src/main/java/org/study/gateway/dynamic/GatewayService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-gateway/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-calculation-serv/gateway-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/SleuthCalculationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-calculation-serv/gateway-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/GatewayCalculationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-customer-serv/gateway-coupon-customer-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-customer-serv/gateway-coupon-customer-impl/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-customer-serv/gateway-coupon-customer-impl/src/main/java/org/study/coupon/customer/SleuthCustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-customer-serv/gateway-coupon-customer-impl/src/main/java/org/study/coupon/customer/GatewayCustomerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-customer-serv/gateway-coupon-customer-impl/src/main/java/org/study/coupon/customer/controller/CouponCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-customer-serv/gateway-coupon-customer-impl/src/main/java/org/study/coupon/customer/controller/CouponCustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-customer-serv/gateway-coupon-customer-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-customer-serv/gateway-coupon-customer-impl/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-customer-serv/gateway-coupon-customer-impl/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-customer-serv/gateway-coupon-customer-impl/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-template-serv/gateway-coupon-template-impl/src/main/java/org/study/template/SleuthTemplateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-template-serv/gateway-coupon-template-impl/src/main/java/org/study/template/GatewayTemplateApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-template-serv/gateway-coupon-template-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-template-serv/gateway-coupon-template-impl/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-template-serv/gateway-coupon-template-impl/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-template-serv/gateway-coupon-template-impl/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-template-serv/gateway-coupon-template-impl/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-template-serv/gateway-coupon-template-impl/src/main/resources/logback-spring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +118,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.27816093",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "c3983883d67fbd2ef2c75a06339facac",
+    "spring.configuration.checksum": "9e0f82abe4223be552d59ec09c0284d4",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -159,7 +165,10 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+  <component name="RunManager" selected="Spring Boot.GatewayTemplateApplication">
+    <configuration name="GatewayApplication | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/GatewayApplication.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="ConfigCalculationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <module name="config-coupon-calculation-impl" />
@@ -172,19 +181,6 @@
       <option name="ACTIVE_PROFILES" />
       <module name="config-coupon-customer-impl" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.coupon.customer.ConfigCustomerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConfigTemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="config-coupon-template-impl" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.template.ConfigTemplateApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.study.template.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -202,6 +198,26 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.study.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayCustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway-coupon-customer-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.coupon.customer.GatewayCustomerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayTemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gateway-coupon-template-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.template.GatewayTemplateApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.study.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -248,19 +264,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenfeignTemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="openfeign-coupon-template-impl" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.template.OpenfeignTemplateApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.study.template.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SentinelCalculationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <module name="sentinel-coupon-calculation-impl" />
@@ -290,13 +293,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SleuthCalculationApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="gateway-coupon-calculation-impl" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.coupon.calculation.SleuthCalculationApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SleuthCalculationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <module name="sleuth-coupon-calculation-impl" />
@@ -305,9 +301,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SleuthCustomerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="gateway-coupon-customer-impl" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.coupon.customer.SleuthCustomerApplication" />
+    <configuration name="SleuthCalculationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="gateway-coupon-calculation-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.coupon.calculation.GatewayCalculationApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -334,8 +331,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.SleuthCalculationApplication (1)" />
-      <item itemvalue="Spring Boot.SleuthCustomerApplication (1)" />
+      <item itemvalue="HTTP Request.GatewayApplication | #1" />
+      <item itemvalue="Spring Boot.GatewayCustomerApplication" />
       <item itemvalue="Spring Boot.SleuthCalculationApplication" />
       <item itemvalue="Spring Boot.SleuthCustomerApplication" />
       <item itemvalue="Spring Boot.SentinelCalculationApplication" />
@@ -348,18 +345,17 @@
       <item itemvalue="Spring Boot.LoadbalancerCalculationApplication" />
       <item itemvalue="Spring Boot.LoadbalancerCustomerApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.GatewayTemplateApplication" />
       <item itemvalue="Spring Boot.SleuthTemplateApplication" />
       <item itemvalue="Spring Boot.SentinelTemplateApplication" />
-      <item itemvalue="Spring Boot.ConfigTemplateApplication" />
-      <item itemvalue="Spring Boot.OpenfeignTemplateApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.GatewayTemplateApplication" />
         <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="HTTP Request.GatewayApplication | #1" />
         <item itemvalue="Spring Boot.SleuthTemplateApplication" />
         <item itemvalue="Spring Boot.SentinelTemplateApplication" />
-        <item itemvalue="Spring Boot.ConfigTemplateApplication" />
-        <item itemvalue="Spring Boot.OpenfeignTemplateApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -409,7 +405,8 @@
       <workItem from="1659857869781" duration="1599000" />
       <workItem from="1659880347873" duration="3773000" />
       <workItem from="1660269487581" duration="35000" />
-      <workItem from="1660269551453" duration="4187000" />
+      <workItem from="1660269551453" duration="9392000" />
+      <workItem from="1660395617074" duration="5136000" />
     </task>
     <task id="LOCAL-00001" summary="fix: 完善">
       <created>1655606937070</created>
@@ -502,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659882514725</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feat: gateway路由配置">
+      <created>1660320268059</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1660320268059</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,7 +545,8 @@
     <MESSAGE value="feat: sentinel配置持久化" />
     <MESSAGE value="feat: sleuth" />
     <MESSAGE value="feat: gateway" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: gateway" />
+    <MESSAGE value="feat: gateway路由配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: gateway路由配置" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

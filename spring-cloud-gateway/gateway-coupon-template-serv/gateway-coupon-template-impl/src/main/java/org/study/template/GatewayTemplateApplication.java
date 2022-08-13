@@ -16,9 +16,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EntityScan("org.study")
 @EnableJpaRepositories("org.study.coupon.template")
 @ComponentScan(basePackages = {"org.study"})
-public class SleuthTemplateApplication {
+public class GatewayTemplateApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(SleuthTemplateApplication.class, args);
+    SpringApplication.run(GatewayTemplateApplication.class, args);
   }
 }

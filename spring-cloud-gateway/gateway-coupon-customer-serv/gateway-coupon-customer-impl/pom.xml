@@ -24,6 +24,11 @@
 
   <dependencies>
 
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-stream-rabbit</artifactId>
+    </dependency>
+
     <!-- Sleuth + Zipkin链路追踪 -->
     <dependency>
       <groupId>org.springframework.cloud</groupId>

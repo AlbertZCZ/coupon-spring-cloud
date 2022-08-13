@@ -10,10 +10,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @create: 2022-06-19 10:12
  **/
 @SpringBootApplication
-public class SleuthCalculationApplication {
+public class GatewayCalculationApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(SleuthCalculationApplication.class, args);
+    SpringApplication.run(GatewayCalculationApplication.class, args);
   }
   
 }

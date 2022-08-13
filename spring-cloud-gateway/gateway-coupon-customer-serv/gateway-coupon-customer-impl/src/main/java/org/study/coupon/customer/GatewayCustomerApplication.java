@@ -25,9 +25,9 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EntityScan(basePackages = {"org.study"})
 @ComponentScan(basePackages = {"org.study"})
 @EnableFeignClients(basePackages = {"org.study"})
-public class SleuthCustomerApplication {
+public class GatewayCustomerApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(SleuthCustomerApplication.class, args);
+    SpringApplication.run(GatewayCustomerApplication.class, args);
   }
 }

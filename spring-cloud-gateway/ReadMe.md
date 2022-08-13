@@ -27,3 +27,15 @@ gateway把请求转发给目标服务的过程中，把这个任务全权委托�
 RoutesConfiguration
 ## Redis + Lua实现限流方案
 RedisLimitationConfig
+### 使用nacos添加动态路由表
+但凡有动态配置相关的需求，使用Nacos Config就对了
+定义一个底层的网关路由规则编辑类，它的作用是将变化后的路由信息添加到网关上下文中GatewayService
+定义一个DynamicRoutesLoader的类，它实现了InitializingBean接口，在afterPropertiesSet方法中执行了两项任务，
+第一项任务是调用Nacos提供的NacosConfigManager类加载指定的路由配置文件，配置文件名是routes-config.json；
+第二项任务是将前面我们定义的DynamicRoutesListener注册到routes-config.json文件的监听列表中，这样一来，每次这个文件发生变动，监听器都能够获取到通知。
+
+# 八、集成Stream实现消息驱动
+## 添加生产者CouponProducer
+## 添加消费者CouponConsumer
+要确保消费者方法的名称和配置文件中所定义的Function Name以及Binding Name保持一致
+todo: Stream绑定RocketMQ

@@ -6,7 +6,7 @@ spring:
     nacos:
       config:
         # nacos config服务器的地址
-        server-addr: localhost:8848,localhost:8846,localhost:8844
+        server-addr: localhost:8848
         file-extension: yml
         # prefix: 文件名前缀，默认是spring.application.name
         # 如果没有指定命令空间，则默认命令空间为PUBLIC

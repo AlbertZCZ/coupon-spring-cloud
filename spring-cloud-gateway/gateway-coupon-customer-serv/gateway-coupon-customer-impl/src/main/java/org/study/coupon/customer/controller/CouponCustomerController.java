@@ -19,6 +19,7 @@ import org.study.coupon.calculation.api.beans.SimulationOrder;
 import org.study.coupon.calculation.api.beans.SimulationResponse;
 import org.study.coupon.customer.api.beans.RequestCoupon;
 import org.study.coupon.customer.api.beans.SearchCoupon;
+import org.study.coupon.customer.service.CouponProducer;
 import org.study.coupon.customer.service.intf.CouponCustomerService;
 import org.study.coupon.template.api.beans.CouponInfo;
 import org.study.entiry.Coupon;
@@ -41,6 +42,7 @@ public class CouponCustomerController {
   @Value("${disableCouponRequest:false}")
   private Boolean disableCoupon;
   private final CouponCustomerService customerService;
+  private final CouponProducer couponProducer;
 
   @PostMapping("requestCoupon")
   @SentinelResource(value = "requestCoupon", fallback = "getNothing")
@@ -80,4 +82,15 @@ public class CouponCustomerController {
   public List<CouponInfo> findCoupon(@Valid @RequestBody SearchCoupon request) {
     return customerService.findCoupon(request);
   }
+
+  @PostMapping("requestCouponEvent")
+  public void requestCouponEvent(@Valid @RequestBody RequestCoupon request) {
+    couponProducer.send(request);
+  }
+  // 用户删除优惠券
+  @DeleteMapping("deleteCouponEvent")
+  public void deleteCouponEvent(@RequestParam("userId") Long userId, @RequestParam("couponId") Long couponId) {
+    couponProducer.delete(userId, couponId);
+  }
+
 }
