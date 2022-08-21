@@ -1,7 +1,7 @@
 package org.study.coupon.customer.service;
 
+import org.study.coupon.customer.dao.entiry.Coupon;
 import org.study.coupon.template.api.beans.CouponInfo;
-import org.study.entiry.Coupon;
 
 /**
  * @program: coupon-spring-cloud

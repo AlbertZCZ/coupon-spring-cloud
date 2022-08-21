@@ -11,6 +11,11 @@ import org.study.coupon.template.dao.entity.entrity.CouponTemplate;
  **/
 public class CouponTemplateConverter {
 
+  /**
+   * model转换为dto
+   * @param template model
+   * @return dto
+   */
   public static CouponTemplateInfo convertToTemplateInfo(CouponTemplate template) {
 
     return CouponTemplateInfo.builder()

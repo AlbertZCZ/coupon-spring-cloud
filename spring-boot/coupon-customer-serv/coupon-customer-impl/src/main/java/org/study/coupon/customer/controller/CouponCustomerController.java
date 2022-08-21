@@ -1,22 +1,19 @@
 package org.study.coupon.customer.controller;
 
-import java.util.List;
-import javax.validation.Valid;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.study.coupon.calculation.api.beans.ShoppingCart;
 import org.study.coupon.calculation.api.beans.SimulationOrder;
 import org.study.coupon.calculation.api.beans.SimulationResponse;
 import org.study.coupon.customer.api.beans.RequestCoupon;
 import org.study.coupon.customer.api.beans.SearchCoupon;
+import org.study.coupon.customer.dao.entiry.Coupon;
 import org.study.coupon.customer.service.intf.CouponCustomerService;
 import org.study.coupon.template.api.beans.CouponInfo;
+
+import javax.validation.Valid;
+import java.util.List;
 
 /**
  * @program: coupon-spring-cloud
@@ -34,7 +31,7 @@ public class CouponCustomerController {
   private final CouponCustomerService customerService;
 
   @PostMapping("requestCoupon")
-  public org.study.entiry.Coupon requestCoupon(@Valid @RequestBody RequestCoupon request) {
+  public Coupon requestCoupon(@Valid @RequestBody RequestCoupon request) {
     return customerService.requestCoupon(request);
   }
 
@@ -58,7 +55,6 @@ public class CouponCustomerController {
   }
 
 
-  // 实现的时候最好封装一个search object类
   @PostMapping("findCoupon")
   public List<CouponInfo> findCoupon(@Valid @RequestBody SearchCoupon request) {
     return customerService.findCoupon(request);

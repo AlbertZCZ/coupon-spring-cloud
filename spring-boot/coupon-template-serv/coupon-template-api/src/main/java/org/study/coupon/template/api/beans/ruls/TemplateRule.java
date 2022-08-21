@@ -5,7 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 /**
  * @program: coupon-spring-cloud
- * @description: 优惠券计算规则
+ * @description: 领券规则，包括每个用户可领取的数量和券模板的过期时间
  * @author: zhangchaozhen
  * @create: 2022-06-18 19:18
  **/

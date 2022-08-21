@@ -4,24 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c3cd31d-2353-427f-899c-d672f0faba4f" name="Changes" comment="feat: gateway路由配置">
-      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-customer-serv/gateway-coupon-customer-impl/src/main/java/org/study/coupon/customer/service/CouponConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-customer-serv/gateway-coupon-customer-impl/src/main/java/org/study/coupon/customer/service/CouponProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway/middleware/gateway/src/main/java/org/study/gateway/dynamic/DynamicRoutesListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway/middleware/gateway/src/main/java/org/study/gateway/dynamic/DynamicRoutesLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-gateway/middleware/gateway/src/main/java/org/study/gateway/dynamic/GatewayService.java" afterDir="false" />
+    <list default="true" id="4c3cd31d-2353-427f-899c-d672f0faba4f" name="Changes" comment="feat: stream">
+      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-impl/img/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-impl/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-calculation-serv/gateway-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/SleuthCalculationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-calculation-serv/gateway-coupon-calculation-impl/src/main/java/org/study/coupon/calculation/GatewayCalculationApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-customer-serv/gateway-coupon-customer-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-customer-serv/gateway-coupon-customer-impl/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-customer-serv/gateway-coupon-customer-impl/src/main/java/org/study/coupon/customer/SleuthCustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-customer-serv/gateway-coupon-customer-impl/src/main/java/org/study/coupon/customer/GatewayCustomerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-customer-serv/gateway-coupon-customer-impl/src/main/java/org/study/coupon/customer/controller/CouponCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-customer-serv/gateway-coupon-customer-impl/src/main/java/org/study/coupon/customer/controller/CouponCustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-customer-serv/gateway-coupon-customer-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-customer-serv/gateway-coupon-customer-impl/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-customer-serv/gateway-coupon-customer-impl/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-customer-serv/gateway-coupon-customer-impl/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-template-serv/gateway-coupon-template-impl/src/main/java/org/study/template/SleuthTemplateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-template-serv/gateway-coupon-template-impl/src/main/java/org/study/template/GatewayTemplateApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-template-serv/gateway-coupon-template-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-template-serv/gateway-coupon-template-impl/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-template-serv/gateway-coupon-template-impl/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-template-serv/gateway-coupon-template-impl/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-template-serv/gateway-coupon-template-impl/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-gateway/gateway-coupon-template-serv/gateway-coupon-template-impl/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-api/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-api/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-impl/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-impl/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-impl/src/main/java/org/study/coupon/calculation/service/template/AbstractRuleTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-impl/src/main/java/org/study/coupon/calculation/service/template/AbstractRuleTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-api/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-api/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-dao/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-dao/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-dao/src/main/java/org/study/coupon/customer/dao/CouponDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-dao/src/main/java/org/study/coupon/customer/dao/CouponDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-dao/src/main/java/org/study/coupon/customer/dao/entiry/Coupon.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-dao/src/main/java/org/study/coupon/customer/dao/entiry/Coupon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-impl/src/main/java/org/study/coupon/customer/controller/CouponCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-impl/src/main/java/org/study/coupon/customer/controller/CouponCustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-impl/src/main/java/org/study/coupon/customer/service/CouponConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-impl/src/main/java/org/study/coupon/customer/service/CouponConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-impl/src/main/java/org/study/coupon/customer/service/CouponCustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-impl/src/main/java/org/study/coupon/customer/service/CouponCustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-impl/src/main/java/org/study/coupon/customer/service/intf/CouponCustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-impl/src/main/java/org/study/coupon/customer/service/intf/CouponCustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-template-serv/coupon-template-api/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-template-serv/coupon-template-api/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-template-serv/coupon-template-api/src/main/java/org/study/coupon/template/api/beans/ruls/Discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-template-serv/coupon-template-api/src/main/java/org/study/coupon/template/api/beans/ruls/Discount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-template-serv/coupon-template-api/src/main/java/org/study/coupon/template/api/beans/ruls/TemplateRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-template-serv/coupon-template-api/src/main/java/org/study/coupon/template/api/beans/ruls/TemplateRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-template-serv/coupon-template-dao/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-template-serv/coupon-template-dao/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-template-serv/coupon-template-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-template-serv/coupon-template-dao/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-template-serv/coupon-template-impl/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-template-serv/coupon-template-impl/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-template-serv/coupon-template-impl/src/main/java/org/study/template/conver/CouponTemplateConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-template-serv/coupon-template-impl/src/main/java/org/study/template/conver/CouponTemplateConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/coupon-template-serv/coupon-template-impl/src/main/java/org/study/template/service/CouponTemplateServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/coupon-template-serv/coupon-template-impl/src/main/java/org/study/template/service/CouponTemplateServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +118,7 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/zhang/IdeaProjects/coupon-spring-cloud",
+    "last_opened_file_path": "C:/Users/zhang/IdeaProjects/coupon-spring-cloud/spring-boot/coupon-customer-serv/coupon-customer-impl",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -135,18 +145,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zhang\IdeaProjects\coupon-spring-cloud\spring-boot\coupon-customer-serv\coupon-customer-impl" />
       <recent name="C:\Users\zhang\IdeaProjects\coupon-spring-cloud" />
       <recent name="C:\Users\zhang\IdeaProjects\coupon-spring-cloud\spring-cloud-sleuth\sleuth-coupon-calculation-serv\sleuth-coupon-calculation-impl\src\main\resources" />
       <recent name="C:\Users\zhang\IdeaProjects\coupon-spring-cloud\spring-cloud-sleuth\sleuth-coupon-customer-serv\sleuth-coupon-customer-impl\src\main\resources" />
       <recent name="C:\Users\zhang\IdeaProjects\coupon-spring-cloud\spring-cloud-config\config-coupon-calculation-serv\config-coupon-calculation-impl\src\main\resources" />
-      <recent name="C:\Users\zhang\IdeaProjects\coupon-spring-cloud\spring-cloud-config\config-coupon-template-serv\config-coupon-template-impl\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zhang\IdeaProjects\coupon-spring-cloud\spring-boot\coupon-calculation-serv\coupon-calculation-impl\img" />
       <recent name="C:\Users\zhang\IdeaProjects\coupon-spring-cloud\spring-cloud-gateway\images" />
       <recent name="$PROJECT_DIR$/spring-boot/coupon-calculation-serv/coupon-calculation-api" />
       <recent name="$PROJECT_DIR$/spring-boot/coupon-calculation-serv" />
       <recent name="$PROJECT_DIR$/spring-boot/coupon-customer-serv/coupon-customer-impl" />
-      <recent name="$PROJECT_DIR$/spring-boot/coupon-template-serv/coupon-template-api" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.study.coupon.customer" />
@@ -406,7 +416,9 @@
       <workItem from="1659880347873" duration="3773000" />
       <workItem from="1660269487581" duration="35000" />
       <workItem from="1660269551453" duration="9392000" />
-      <workItem from="1660395617074" duration="5136000" />
+      <workItem from="1660395617074" duration="5557000" />
+      <workItem from="1661082184470" duration="68000" />
+      <workItem from="1661082504463" duration="9630000" />
     </task>
     <task id="LOCAL-00001" summary="fix: 完善">
       <created>1655606937070</created>
@@ -506,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660320268059</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat: stream">
+      <created>1660401202152</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1660401202152</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,7 +565,8 @@
     <MESSAGE value="feat: sleuth" />
     <MESSAGE value="feat: gateway" />
     <MESSAGE value="feat: gateway路由配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: gateway路由配置" />
+    <MESSAGE value="feat: stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: stream" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,18 +1,7 @@
-Camel Java Router Project
-=========================
-
-=== How to build
-
-To build this project use
-
-    mvn install
-
-=== How to run
-
-You can run this example using
-
-    mvn camel:run
-
-=== More information
-
-You can find more information about Apache Camel at the website: http://camel.apache.org/
+## Coupon数据库实体对象
+用于保存用户领到的优惠券 
+> 为什么需要在Coupon表中再保存一次shop ID呢
+> 数据库的标准范式是上一个时代的产物，以那个时代的眼光来看，“存储”是一项很宝贵的资源  
+> 当我们用现在的眼光来审视程序设计，你会发现“存储资源”已经不再是制约生产力的瓶颈，为了应对高并发的场景，你必须尽可能提高系统的吞吐量和性能
+## CouponDAO接口用来提供CRUD操作
+只创建了一个接口用于count计算，至于其他增删改查功能则统一由父类JpaRepository一手包办了

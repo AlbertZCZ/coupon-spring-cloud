@@ -1,0 +1,5 @@
+## 将template、calculation的依赖项添加到coupon-customer-impl的配置文件中
+既然coupon-customer-impl需要调用template和calculation两个服务，在没有进入微服务化改造之前，  
+我们只能先暂时委屈一下template和calculation，将它俩作为customer服务的一部分，做成一个三合一的单体应用  
+## CouponCustomerService业务逻辑层的接口抽象
+## CouponCustomerController中对外暴露了几个服务

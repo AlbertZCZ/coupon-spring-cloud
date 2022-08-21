@@ -13,7 +13,7 @@ import org.study.coupon.template.api.beans.CouponTemplateInfo;
 
 /**
  * @program: coupon-spring-cloud
- * @description:
+ * @description: 抽象模板类
  * @author: zhangchaozhen
  * @create: 2022-06-18 22:20
  **/

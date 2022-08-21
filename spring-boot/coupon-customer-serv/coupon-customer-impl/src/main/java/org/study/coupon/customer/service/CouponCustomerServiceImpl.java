@@ -1,11 +1,6 @@
 package org.study.coupon.customer.service;
 
 import com.google.common.collect.Lists;
-import java.util.Calendar;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
-import java.util.stream.Collectors;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections4.CollectionUtils;
@@ -21,11 +16,16 @@ import org.study.coupon.customer.api.beans.RequestCoupon;
 import org.study.coupon.customer.api.beans.SearchCoupon;
 import org.study.coupon.customer.api.enums.CouponStatus;
 import org.study.coupon.customer.dao.CouponDao;
+import org.study.coupon.customer.dao.entiry.Coupon;
 import org.study.coupon.customer.service.intf.CouponCustomerService;
 import org.study.coupon.template.api.beans.CouponInfo;
 import org.study.coupon.template.api.beans.CouponTemplateInfo;
-import org.study.entiry.Coupon;
 import org.study.template.service.intf.CouponTemplateService;
+
+import java.util.Calendar;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
 
 /**
  * @program: coupon-spring-cloud
@@ -50,7 +50,7 @@ public class CouponCustomerServiceImpl implements CouponCustomerService {
     List<CouponInfo> couponInfos = Lists.newArrayList();
     // 挨个循环，把优惠券信息加载出来
     // 高并发场景下不能这么一个个循环，更好的做法是批量查询
-    // 而且券模板一旦创建不会改内容，所以在创建端做数据异构放到缓存里，使用端从缓存捞template信息
+    // 而且券模板一旦创建不会改内容，所以在创建端做数据结构放到缓存里，使用端从缓存捞template信息
     for (Long couponId : order.getCouponIDs()) {
       Coupon example = Coupon.builder()
           .userId(order.getUserId())
@@ -61,12 +61,11 @@ public class CouponCustomerServiceImpl implements CouponCustomerService {
           .stream()
           .findFirst();
       // 加载优惠券模板信息
-      if (couponOptional.isPresent()) {
-        Coupon coupon = couponOptional.get();
-        CouponInfo couponInfo = CouponConverter.convertToCoupon(coupon);
-        couponInfo.setTemplate(templateService.loadTemplateInfo(coupon.getTemplateId()));
-        couponInfos.add(couponInfo);
-      }
+      couponInfos.add(couponOptional.map(coupon -> {
+        CouponInfo info = CouponConverter.convertToCoupon(coupon);
+        info.setTemplate(templateService.loadTemplateInfo(coupon.getTemplateId()));
+        return info;
+      }).orElse(null));
     }
     order.setCouponInfos(couponInfos);
 

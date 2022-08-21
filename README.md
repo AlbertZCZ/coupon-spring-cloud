@@ -5,5 +5,5 @@ SpringCloud学习项目
 > [Spring Cloud Alibaba](https://spring.io/spring-cloud-alibaba)
 > [Spring Cloud Alibaba Nacos](https://spring.io/spring-cloud-alibaba-nacos)
 
-## 由普通SpringBoot项目到SpringCloud演化
+## 由普通SpringBoot项目到SpringCloud演化基于JDK17
 spring-boot -> spring-cloud-loadbalancer -> spring-cloud-openfeign -> spring-cloud-config -> spring-cloud-sentinel -> spring-cloud-sleuth -> spring-cloud-gateway

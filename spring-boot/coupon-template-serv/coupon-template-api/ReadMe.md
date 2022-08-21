@@ -1,18 +1,2 @@
-Camel Java Router Project
-=========================
-
-=== How to build
-
-To build this project use
-
-    mvn install
-
-=== How to run
-
-You can run this example using
-
-    mvn camel:run
-
-=== More information
-
-You can find more information about Apache Camel at the website: http://camel.apache.org/
+# 专门用来存放公共类的仓库
+在微服务领域，将外部依赖的POJO类或者API接口层单独打包是一种通用做法，这样就可以给外部依赖方提供一个“干净”（不包含非必要依赖）的接口包，为远程服务调用（RPC）提供支持。

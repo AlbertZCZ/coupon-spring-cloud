@@ -1,4 +1,4 @@
-package org.study.entiry;
+package org.study.coupon.customer.dao.entiry;
 
 import java.util.Date;
 import java.util.Objects;
